@@ -2,6 +2,7 @@ body {
   background-color: purple;
   color: blue;
   font-family: "Lucida Console";
+  overflow-y: hidden;
 }
 
 .box {

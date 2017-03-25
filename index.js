@@ -10,7 +10,6 @@ Vue.component('btn', {
 var app = new Vue({
   el: '#app',
   data: {
-    message: 'plz Vue!',
     showConfetti: false,
     showRain: false,
   },
