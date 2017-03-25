@@ -10,11 +10,13 @@ Vue.component('btn', {
 var app = new Vue({
   el: '#app',
   data: {
-    message: 'plz Vue!'
+    message: 'plz Vue!',
+    showConfetti: false,
   },
   methods: {
     accept: function() {
       console.log('yay')
+      this.showConfetti = true
     },
     decline: function() {
       console.log('nooo')
