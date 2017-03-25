@@ -36,3 +36,8 @@ button.no {
   margin: 0px auto 20px auto;
   padding: 20px 2px;
 }
+
+#confetti {
+  position: absolute;
+  width: 100%;
+}
