@@ -1,5 +1,5 @@
 Vue.component('box', {
-  template: '<h1>This is a todo</h1>'
+  template: '<h1><slot></slot></h1>'
 })
 
 var app = new Vue({
