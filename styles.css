@@ -27,3 +27,12 @@ button.yes {
 button.no {
   background-color: red;
 }
+
+.btns {
+  border: 2px solid green;
+  border-radius: 5px;
+  width: 60%;
+  text-align: center;
+  margin: 0px auto 20px auto;
+  padding: 20px 2px;
+}
