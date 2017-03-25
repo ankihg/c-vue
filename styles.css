@@ -37,7 +37,7 @@ button.no {
   padding: 20px 2px;
 }
 
-#confetti {
+.cover {
   position: absolute;
   width: 100%;
 }

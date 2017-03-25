@@ -12,6 +12,7 @@ var app = new Vue({
   data: {
     message: 'plz Vue!',
     showConfetti: false,
+    showRain: false,
   },
   methods: {
     accept: function() {
@@ -20,6 +21,7 @@ var app = new Vue({
     },
     decline: function() {
       console.log('nooo')
+      this.showRain = true
     },
   }
 })
