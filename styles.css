@@ -11,3 +11,19 @@ body {
   text-align: center;
   margin: auto;
 }
+
+button {
+  padding: 5px 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin: 10px 20px;
+  color: white;
+}
+
+button.yes {
+  background-color: green;
+}
+
+button.no {
+  background-color: red;
+}
