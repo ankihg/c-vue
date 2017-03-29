@@ -10,6 +10,7 @@ body {
   width: 50%;
   text-align: center;
   margin: auto;
+  padding: 1%;
 }
 
 button {
@@ -42,6 +43,7 @@ button.no {
   width: 100%;
 }
 
-label {
-  font-size: 50%;
+p {
+  font-size: 60%;
+  text-align: left;
 }
