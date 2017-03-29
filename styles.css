@@ -2,7 +2,6 @@ body {
   background-color: purple;
   color: blue;
   font-family: "Lucida Console";
-  overflow-y: hidden;
 }
 
 .box {
@@ -41,4 +40,8 @@ button.no {
 .cover {
   position: absolute;
   width: 100%;
+}
+
+label {
+  font-size: 50%;
 }

@@ -7,6 +7,20 @@ Vue.component('btn', {
   props: ['onclick'],
 })
 
+Vue.component('packingList', {
+  template: '<div><p v-for="check in checks"><input type="checkbox" id="cbox1" :value="check.checked"><label for="cbox1">{{check.name}}</label></p></div>',
+  data: function() {
+    return {
+      checks: [
+        {name: 'tummy'},
+
+      ]
+    }
+  },
+  props: [],
+})
+
+
 var app = new Vue({
   el: '#app',
   data: {
