@@ -41,6 +41,7 @@ button.no {
 .cover {
   position: absolute;
   width: 100%;
+  pointer-events: none;
 }
 
 p {
