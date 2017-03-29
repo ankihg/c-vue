@@ -25,17 +25,16 @@ Vue.component('packingList', {
 var app = new Vue({
   el: '#app',
   data: {
-    showConfetti: false,
-    showRain: false,
+    state: ''
   },
   methods: {
     accept: function() {
       console.log('yay')
-      this.showConfetti = true
+      this.state = 'accepted'
     },
     decline: function() {
       console.log('nooo')
-      this.showRain = true
+      this.state = 'declined'
     },
   }
 })
