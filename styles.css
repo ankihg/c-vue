@@ -47,3 +47,11 @@ p {
   font-size: 60%;
   text-align: left;
 }
+
+label {
+  padding: 1%;
+}
+
+img.small {
+  max-height: 50px;
+}
