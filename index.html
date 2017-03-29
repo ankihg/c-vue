@@ -11,7 +11,7 @@
     <img class="cover" v-if="state == 'declined'" src="https://media.giphy.com/media/81ibCJOlpBtnO/giphy.gif">
 
 
-    <box>
+    <box v-if="!state">
       DATE NIGHT
       <br>
       WED 3/29
@@ -29,12 +29,11 @@
       </div>
     </box>
 
-    <box>
-
+    <box v-if="state == 'accepted'">
 
       <p>attire: big kid clothes</p>
       <p>hilda: konged & pottied</p>
-      <br><br>
+      <br>
       <packing-list></packing-list>
 
     </box>
